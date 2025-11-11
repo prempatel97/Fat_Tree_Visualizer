@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+<title>Fat Tree Visualizer</title>
+</head>
+
+<body>
+
+<div class="control">
+    <form>
+        <ul>
+            <!-- <input type="text" name="depth" value="3"/> -->
+            <li><span class="f">Tree Depth</span> <span id="ntreedepth"></span></li>
+
+            <li><span class="f">Ports per Switch</span> <input type="text" name="portsPerSwitch" value="16"/></li>
+            
+            <li><span class="f">Hosts</span> <span id="nhost"></span></li>
+            
+            <li><span class="f">Switches</span> <input type="text" name="switches" value="24"/></li>
+            
+            <!-- <span id="nswitch"></span> -->
+            
+            <li><span class="f">Cables</span> <span id="ncable"></span></li>
+            
+            <li><span class="f">Transmitters</span> <span id="ntx"></span></li>
+            
+            <li><span class="f">Switch Tx's</span> <span id="nswtx"></span></li>
+        </ul>
+    </form>
+    <div class="comment">Fat Tree Visualizer <br/> by <br/>Devang</div>
+</div>
+
+<script language="javascript" type="text/javascript" src="lib/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="lib/d3.js"></script>
+<script language="javascript" type="text/javascript" src="ftree.js"></script>
+
+</body>
+
+</html>
